@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.main-container{
+    background-image: url(https://www.gosell.vn/blog/wp-content/uploads/2022/10/Anh-shopee-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopeelogin 
+{
+    background-color:rgb(238, 232, 230);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+#left-side{
+    display:flex;
+    align-items: center;
+}
+
+.logoShopee
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    
+}
+.background
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.content{
+   
+    height: 100%;
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content > .fake{
+     width:0;
+    height: 100% 
+}
+
+
+.backgroundlogin{
+    width: 26rem;
+    height: 32rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.TOP
+{
+    box-sizing: border-box;
+    min-height: 80px;
+    width: 100%;
+    justify-content: center;
+    display: flex; 
+    align-items: center;
+}
+
+.between{
+    width: 100%;
+    height: 45%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.dangnhap{
+    max-width: 8.5rem;
+    font-size: 1.5rem;
+    color:black;
+    flex-shrink: 0;
+}
+
+.TK{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 10px auto;
+    width: 80%;
+    height : 70%; 
+}
+
+.blockdangnhap
+{
+    background-color:coral;
+    margin: 20px auto 10px auto;
+    width: 80%;
+    height : 20%; 
+    
+}
+
+.TK input{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    display:flex;
+    align-items: center;
+}
+
